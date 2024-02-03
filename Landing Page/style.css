@@ -1,0 +1,402 @@
+ *{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+} 
+
+body {
+    max-width: 1440px;
+    background-color: #091113;
+    color: white;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+/* Designing Header  */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+.list ul{
+   display: flex ;
+   flex-direction: row;
+   justify-content: space-between;
+   align-content: center;
+   font-weight: 600;
+   gap: 50px;
+   margin-left: 400px;
+   cursor: pointer;
+}
+.logo1{
+    margin-left: 80px;
+}
+.but1{
+    padding: 15px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(47, 45, 45);
+    color: white;
+    margin-right: 200px;
+    cursor: pointer;
+}
+
+/* Designing main content  */
+
+
+img[alt="img1"]{
+    width: 250px;
+    margin-left: 250px;
+    position: relative;
+    bottom: 175px;
+}
+.maincon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 720px;
+    position: relative;
+    bottom: 550px;
+    gap: 25px;
+}
+.head1{
+    font-size: 55px;
+    /* margin-right: 200px; */
+}
+.descri{
+    font-weight: 600;
+    font-size: 22px;
+}
+.butt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(47, 45, 45);
+    color: white;
+    margin-right: 200px;
+    cursor: pointer;
+    
+}
+.des2{
+    font-weight:50;
+}
+.N3{
+    font-size: 20px;
+}
+.logosss{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 150px;
+    position: relative;
+    bottom: 440px;
+}
+
+/* Middle Content Spaces  */
+
+.spc{
+position: relative;
+bottom:300px;
+left: 600px;
+}
+.midconc{
+   position: relative;
+   bottom: 250px;
+   justify-content: space-between; 
+}
+.same1{
+    margin-left: 400px;
+    margin-bottom: 25px;
+}
+.same2{
+    margin-left: 350px;
+    margin-bottom: 25px;
+}
+.same3{
+    margin-left: 350px;
+    margin-bottom: 25px;
+}
+.same4{
+    margin-left: 400px;
+    margin-bottom: 25px;
+}
+
+/* main image  */
+.imgg{
+    position: relative;
+    left: 650px;
+    bottom: 350px;
+
+}
+
+/* Case content  */
+.case{
+ position: relative;
+bottom:465px;
+left: 600px;
+}
+.case1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    position: relative;
+    bottom: 400px;
+}
+.description{
+    margin-top: 100px;
+    margin-left: 60px;
+    gap: 20px;
+}
+.liss{
+    gap: 50px;
+}
+.butt2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(47, 45, 45);
+    color: white;
+    margin-right: 200px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.Buy{
+    /* padding: 10px 20px; */
+    /* background-color: white; */
+    color: white;
+    background-color: rgb(27, 25, 25);
+    position: relative;
+    bottom: 200px;
+    border-radius: 20px;
+}
+.immg{
+    position: relative;
+    left: 675px;
+    bottom: 55px;
+}
+img[alt="buy now"]{
+    width: 400px ;
+}
+.contentt{
+    margin-left: 300px;
+    position: relative;
+    top: 150px;
+}
+.but3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    margin-right: 200px;
+    /* margin-top: 30px; */
+    cursor: pointer;
+   
+
+}
+.choose{
+    position: relative;
+    bottom:100px;
+    left: 600px;
+   
+}
+img[alt="logooo"]{
+    width: 200px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    /* background-color:  rgb(47, 45, 45); */
+} 
+img[alt="buyy"]{
+    width: 100px;
+    /* background-color:  rgb(47, 45, 45); */
+    position: relative;
+    bottom: 55px;
+
+}
+
+/* Choose your style  */
+
+.card5{
+    width: 175px;
+    height: 175px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 45, 45);
+    margin-left: 500px;
+    align-items: center;
+    position: relative;
+    right: 80px;
+    bottom:200px;
+}
+.design{
+    position: relative;
+    bottom: 40px;
+    right: 30px ;
+}
+.buttt3{
+    background-color: black;
+    padding: 6px 6px;
+    border-radius: 8px;
+    position: relative;
+    left: 50px;
+    bottom: 12px;
+}
+.card4{
+    width: 175px;
+    height: 175px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 45, 45);
+    margin-left: 500px;
+    align-items: center;
+    position: relative;
+    left: 160px;
+    bottom: 276px;
+}
+.card3{
+    width: 175px;
+    height: 175px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 45, 45);
+    margin-left: 500px;
+    align-items: center;
+    position: relative;
+    right: 80px;
+    bottom:100px ;
+   
+}
+.card2{
+    width: 175px;
+    height: 175px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 45, 45);
+    margin-left: 500px;
+    align-items: center;
+    position: relative;
+    left: 160px;
+    bottom: 166px;
+} 
+.card1{
+    width: 175px;
+    height: 175px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 45, 45);
+    margin-left: 500px;
+    align-items: center;
+    position: relative;
+    right: 80px;
+    top: 10px;
+} 
+
+/* Last Containt  */
+.foooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    bottom: 50px;
+    right: 100px;
+    list-style-type: none;
+}
+.listf{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    
+   
+}
+.lists{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    position: relative;
+    right: 100px;
+ 
+}
+img[alt="Beats Logo"]{
+    position: relative;
+   left: 100px;
+}
+.email{
+    background-color: rgb(47, 45, 45);
+    width: 300px;
+    height: 55px;
+    border-radius:7px ;
+}
+.mail{
+    position: relative;
+    top: 18px;
+    left: 8px;
+}
+.btt4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    margin-right: 200px;
+    /* margin-top: 30px; */
+    cursor: pointer;
+    position: relative;
+    left: 140px;
+    bottom: 15px;
+}
+.iconss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    right: 37px;
+    
+}
+.arrow{
+    position: relative;
+    bottom: 120px;
+    left: 500px;
+}
