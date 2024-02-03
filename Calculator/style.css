@@ -1,0 +1,53 @@
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+   */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+
+
+html, body {
+    /* height: 100%;
+    width: 100%; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Rubik Glitch', system-ui;
+    background: linear-gradient(45deg,
+    #0a0a0a, #3a4452);
+}
+.container{
+    width: 295px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+.button{
+    width: 57px;
+    padding: 20px;
+    margin: 0 3px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: -3px -5px 15px rgba(255, 255, 255, 0.1);
+    color: white;
+    font: bold;
+    font-size: large;
+}
+.row{
+    margin: 8px 0;
+}
+.row .input {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    color: white;
+}
+.Equalbutton{
+    background-color: #fb7c14;
+}
+.operator{
+    color: #6dee0a;
+}
